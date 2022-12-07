@@ -1,5 +1,5 @@
 .data
-  mercado1: .asciiz "D:/Ufs 4º Periodo/a.txt"        
+  mercado1: .asciiz "D:/Ufs 4º Periodo/logo.txt"        
   conteudo: .space 1024 # tamanho dos caracteres que irá ser lido
   	    
   perguntaNome: .ascii "\n\n                                      WELLCOME TO MINI MARKET\n"

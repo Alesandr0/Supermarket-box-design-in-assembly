@@ -3,16 +3,16 @@
   conteudo: .space 1024 # tamanho dos caracteres que irá ser lido
   	    
   perguntaNome: .ascii "\n\n                                      WELLCOME TO MINI MARKET\n"
-  		       "                                  DIGITE SEU NOME PARA INICIAR AS COMPRAS:\n"
+  		       "                       ENTER YOUR NAME TO START PURCHASES:\n"ENTER YOUR NAME TO START PURCHASES
   		.asciiz "                                  >> "
   nome: .space 30
-  saudacao: .asciiz "\n\n                                           Olá, "
+  saudacao: .asciiz "\n\n                                           Hello, "
 
   carrinho: .ascii "\n             _                                                                   \n"
   		   "              \\________                                                           \n"
-    		   "            ~  \\######/                  DIGITE 1 PARA CONTINUAR                  \n"
-    		   "             ~  |####/                              OU                             \n"
-		   "            ~   |____.                   DIGITE 0 PARA FINALIZAR                   \n"
+    		   "            ~  \\######/                    TYPE 1 TO CONTINUE                     \n"
+    		   "             ~  |####/                              OR                             \n"
+		   "            ~   |____.                        TYPE 0 TO END                        \n"
     	    	   "            ____o____o_______\n"
     	    .asciiz "                                         >> "
     	    

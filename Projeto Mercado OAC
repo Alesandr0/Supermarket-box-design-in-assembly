@@ -31,12 +31,12 @@
                 "         |--------------------------------------------------------------------------------------------|\n"
       	        "         |                0-GIVE UP/QUIT     1-CANCEL PURCHASE     2-FINALIZE PURCHASE                |\n"
       	        "         *--------------------------------------------------------------------------------------------*\n"
-        .asciiz "                                                TOTAL: R$ "
+        .asciiz "                                                TOTAL: $ "
   
-  invalido: .asciiz "\n                        Opcao invalida, digite um numero novamente.         "
+  invalido: .asciiz "\n                        Option invalidates, enter a number again.         "
   pula: .asciiz "\n\n "
   tot: .ascii "\n\n ----------------------------------------------------------------------------------------------------------------"
-       .asciiz "\n\n           Valor total da compra foi: R$ "
+       .asciiz "\n\n           Total purchase amount was: $ "
  
  # As operacoes float n�o aceita a soma diretamente neles Ex: add.d $f12, $f12, 1.90. Por isso precisamos setalos dentro de uma tag
   zero: .float 0.0  
@@ -53,7 +53,7 @@
   r31.19: .float 31.19
   r42.89: .float 42.89  
   
-  continuar: .asciiz  "\n\n\n          Deseja Continuar  no Programa?  1 - Sim   0 - Nao \n"
+  continuar: .asciiz  "\n\n\n          Want to Continue in the Program?  1 - Yes   0 - Not \n"
   
   #produtos:
   #	.align 3
@@ -63,7 +63,7 @@
   #descontos: 
   #	.align 
   
-  local: .asciiz "D:/Ufs 4º Periodo/a.txt"
+  local: .asciiz "D:/Ufs 4º Periodo/logo.txt"
   
 .text
   jal impressaoLogoMercado

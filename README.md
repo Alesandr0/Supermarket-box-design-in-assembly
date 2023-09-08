@@ -1,6 +1,6 @@
 # Supermarket-box-design-in-assembly
 Simple supermarket cashier system, using assembly language.
-Design of the discipline Organization and architecture of computers
+## Design of the discipline Organization and architecture of computers
 ##
 ![Desenvolvido](https://img.shields.io/badge/Status-%20desenvolvido-blue?style=flat) 
 ##
